@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+}
+
+.hr_Line{
+    @apply bg-[#232323] h-2.5
+}
+
+.slider{
+    position: relative;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar{
+    display: none;
+}
